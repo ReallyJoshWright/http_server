@@ -1,0 +1,56 @@
+[
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-c",
+      "-std=c++23",
+      "-g",
+      "-Wall",
+      "-Wextra",
+      "-pedantic",
+      "-I./http_server/include",
+      "-o",
+      "app",
+      "http_server/src/logger.cpp"
+    ],
+    "directory": "/home/josh/Coding/cpp/practice10",
+    "file": "/home/josh/Coding/cpp/practice10/http_server/src/logger.cpp",
+    "output": "/home/josh/Coding/cpp/practice10/app"
+  },
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-c",
+      "-std=c++23",
+      "-g",
+      "-Wall",
+      "-Wextra",
+      "-pedantic",
+      "-I./http_server/include",
+      "-o",
+      "app",
+      "http_server/src/http_server.cpp"
+    ],
+    "directory": "/home/josh/Coding/cpp/practice10",
+    "file": "/home/josh/Coding/cpp/practice10/http_server/src/http_server.cpp",
+    "output": "/home/josh/Coding/cpp/practice10/app"
+  },
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-c",
+      "-std=c++23",
+      "-g",
+      "-Wall",
+      "-Wextra",
+      "-pedantic",
+      "-I./http_server/include",
+      "-o",
+      "app",
+      "main.cpp"
+    ],
+    "directory": "/home/josh/Coding/cpp/practice10",
+    "file": "/home/josh/Coding/cpp/practice10/main.cpp",
+    "output": "/home/josh/Coding/cpp/practice10/app"
+  }
+]
