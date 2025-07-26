@@ -12,7 +12,7 @@ $(TARGET): $(A) $(B) $(MAIN)
 		$(B) \
 		$(MAIN) -o $(TARGET)
 
-.PHONY: clean run
+.PHONY: clean run buildjs
 
 clean:
 	@rm -rf $(TARGET)
@@ -20,3 +20,6 @@ clean:
 run: app
 	@./$(TARGET)
 	@rm -rf $(TARGET)
+
+buildjs:
+	@./compile_ts

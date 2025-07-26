@@ -1,0 +1,10 @@
+#!/bin/bash
+
+SRC_DIR="$(pwd)/public/js"
+
+find "$SRC_DIR" -type f -name "*.ts" -print0 | \
+while IFS= read -r -d $'\0' ts_file; do
+  filename=$(basename "$ts_file", .ts)
+  js_file="$SRC_DIR/$filename.js"
+  tsc "$ts_file"
+done
